@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/style.css" />
+    <link rel="shortcut icon" href="../public/images/favicon.ico" />
+</head>
+<body>
+    <div class="wrapper">
+    <div class="content">
+        <%- include("./header.html") %>
+        <br>
+        <p class="aligncenter">
+            <img  src="../public/images/rx.png" alt="logo">
+        </p>
+
+        <br><br>
+        <div id="intro">
+            <p class="intro">
+                Для AMD модель Radeon RX 570 это не что иное, как работа над ошибками. Перед инженерами компании стояла задача оптимизировать производительность не в ущерб цене.
+                 Ведь в прошлый раз, при анонсе Radeon RX 470, нас уверяли в необычайной экономичности видеокарты, хорошей производительности и привлекательной цене.
+            </p>
+            <p class="intro">
+                Это полноценная игровая видеокарта за приемлемую цену. Однако у нее нет аппаратной поддержки трассировки лучей. 
+                Что стоит учитывать при покупке. В современных игровых проектах она не показывает высоких результатов и не раскрывает полностью возможности графики. 
+                Однако на средних настройках приемлемый FPS будет даже в ресурсоемких играх.
+            </p>
+        </div>
+    
+    </div>
+    <%- include("./footer.html") %>
+    </div>
+</body>
+</html>
